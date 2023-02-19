@@ -90,7 +90,7 @@ body {
   content: "";
 }
 
-section {
+.container {
   position: relative;
 
   display: flex;
@@ -113,6 +113,22 @@ section {
   position: absolute;
   top: 55px;
   right: -270px;
+}
+
+.section-video {
+  align-items: center;
+
+  height: 800px;
+
+  text-align: center;
+}
+
+.video {
+  width: 919px;
+  height: 569px;
+
+  border: none;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 /* BTN */
@@ -146,15 +162,15 @@ h4 {
 }
 
 h1 {
-  font-size: 72px;
+  font-size: 4.5rem;
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 3.75rem;
 }
 
 h3 {
-  font-size: 34px;
+  font-size: 2.12rem;
 }
 
 .text-dark {
