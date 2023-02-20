@@ -37,6 +37,7 @@
 /* RESET */
 
 a {
+  color: inherit;
   text-decoration: none;
 }
 
@@ -177,6 +178,51 @@ h3 {
   color: var(--dark);
 }
 
+.text-white {
+  color: var(--white);
+}
+
+/* Navigation AND Card */
+
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+
+  padding-top: 200px;
+}
+
+.navigation h2 {
+  font-size: 3.25rem;
+}
+
+.navigation a:hover,
+.navigation a:hover h3 {
+  color: var(--white);
+
+  background-color: var(--primary);
+}
+
+.card {
+  width: 350px;
+}
+
+a.card {
+  display: block;
+
+  padding: 1.5rem;
+
+  background-color: var(--light);
+}
+
+.card-number {
+  display: inline-block;
+  margin-bottom: 2.5rem;
+
+  font-size: 4rem;
+  font-family: Neucha, sans-serif;
+  line-height: 1em;
+}
+
 /* Atomic CSS */
 
 .mt-2 {
@@ -197,4 +243,8 @@ h3 {
 
 .bg-color-light {
   background-color: var(--light);
+}
+
+.bg-color-primary-dark {
+  background-color: var(--primary-dark);
 }
